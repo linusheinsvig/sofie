@@ -34,8 +34,22 @@ h3 {
     color: var(--clr-grey);
 }
 
+section {
+    padding: 3rem 0;
+}
+
+p, h3 {
+    text-align: center;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
 .bg-dark { background-color: var(--clr-dark); }
 
 .bg-light { background-color: var(--clr-light); }
 
 .bg-grey { background-color: var(--clr-grey); }
+
