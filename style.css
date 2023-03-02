@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Montserrat:wght@200&family=Taviraj:wght@100&display=swap');
+
+:root {
+    --clr-dark: #2a2a2a;
+    --clr-light: #fff;
+    --clr-grey: #6a6a6a;
+
+    --ff-h1: Catamaran;
+    --ff-h2: Monntserrat;
+    --ff-p: Taviraj;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: var(--ff-p);
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    color: var(--clr-dark);
+}
+
+h1, h2 {
+    font-family: var(--ff-h1);
+    line-height: 1;
+    color: var(--clr-light);
+}
+
+h3 {
+    font-family: var(--ff-h2);
+    line-height: 1;
+    color: var(--clr-grey);
+}
+
+.bg-dark { background-color: var(--clr-dark); }
+
+.bg-light { background-color: var(--clr-light); }
+
+.bg-grey { background-color: var(--clr-grey); }
