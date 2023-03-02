@@ -22,6 +22,11 @@ body {
     color: var(--clr-dark);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 h1, h2 {
     font-family: var(--ff-h1);
     line-height: 1;
@@ -40,6 +45,29 @@ section {
 
 p, h3 {
     text-align: center;
+}
+
+ul > li {
+    display: inline-flex;
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 40em) {
+    .split {
+        flex-direction: row;
+    }
+
+    .split > * {
+        flex-basis: 100%;
+    }
+
+    .split > * + * {
+        margin-left: 2em;
+    }
 }
 
 .container {
